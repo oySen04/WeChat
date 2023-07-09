@@ -1,0 +1,2 @@
+# WeChatApp
+这个是原生Android高仿微信的一个Android端聊天软件
