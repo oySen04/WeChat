@@ -6,14 +6,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/wechat_logo_icon"
+        android:label="WeChat"
+        android:roundIcon="@drawable/wechat_logo_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_WeChat_App"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".start.AppStart"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".start.welcome" />
     </application>
 
 </manifest>
