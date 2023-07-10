@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:onClick="rigister_activity_back"
+        android:src="@drawable/backpay" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="手机号注册"
+        android:textColor="@color/loginText"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="昵称"
+            android:textColor="@color/loginText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:background="@null"
+            android:hint="例如:陈晨"
+            android:singleLine="true"
+            android:textColorHint="@color/textColorHint"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reg_diverse1"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="@color/input_diverse" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="国家/地区"
+            android:textColor="@color/loginText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/reg_userc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@null"
+            android:hint="中国大陆 (+86)"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reg_diverse2"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="@color/input_diverse" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="手机号"
+            android:textColor="@color/loginText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/reg_userphone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:background="@null"
+            android:hint="请填写手机号"
+            android:singleLine="true"
+            android:textColorHint="@color/textColorHint"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reg_diverse3"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="@color/input_diverse" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="密码"
+            android:textColor="@color/loginText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/reg_userpasswd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:background="@null"
+            android:hint="请填写密码"
+            android:password="false"
+            android:singleLine="true"
+            android:textColorHint="@color/textColorHint"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reg_diverse4"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="@color/input_diverse" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/reg_button"
+            android:layout_width="321dp"
+            android:layout_height="48dp"
+            android:background="@drawable/login_button_shape"
+            android:text="注册"
+            android:textColor="@color/loginButtonText"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

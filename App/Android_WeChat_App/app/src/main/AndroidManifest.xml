@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".start.welcome" />
+        <activity android:name=".reigister.Reigister" />
     </application>
 
 </manifest>

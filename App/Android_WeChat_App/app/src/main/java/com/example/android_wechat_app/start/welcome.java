@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 
 import com.example.android_wechat_app.R;
 import com.example.android_wechat_app.login.LoginUser;
-import com.example.android_wechat_app.login.Reigister;
+import com.example.android_wechat_app.reigister.Reigister;
 
 
 public class welcome extends Activity {
