@@ -3,4 +3,4 @@
 
 目前Android端采用原生Android开发
 
-后续会加入IOS端、鸿蒙端，以及用uni-app和Flutter编写的统一端
+后续会加入IOS端、HarmonyOS 端，以及用uni-app和Flutter编写的统一端
